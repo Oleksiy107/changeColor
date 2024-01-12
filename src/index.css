@@ -1,0 +1,11 @@
+@import "./App.css";
+.list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 100vh;
+}
+.list p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
